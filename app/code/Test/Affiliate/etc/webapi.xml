@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<routes>
+    
+    <route method="GET" url="/V1/affiliatemembers">
+        <service class="Test\Affiliate\Api\MemberRepositoryInterface" method="getList"/>
+
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+           
+    </route>
+
+     <route method="GET" url="/V1/affiliatemember">
+        <service class="Test\Affiliate\Api\MemberRepositoryInterface" method="getLists"/>
+
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    
+
+
+</routes>

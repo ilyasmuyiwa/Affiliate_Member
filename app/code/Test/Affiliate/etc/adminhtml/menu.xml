@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!-- <add id="Test_Affiliate::affiliate_head" title="Affiliate Members" module="Test_Affiliate" parent="module_newsletter" sortOrder="40" resource="Test_Affiliate::affiliate_head" /> -->
+
+        <add id="Test_Affiliate::member" title="Affiliate Members" module="Test_Affiliate" sortOrder="100" parent="Magento_Backend::marketing_user_content" action="affiliates/member" resource="Test_Affiliate::member"/>
+
+
+        <!-- <add id="Test_Affiliate::member" title="Members" module="Test_Affiliate" sortOrder="10" parent="Foo_Bar::foo_bar" action="affiliates/member" resource="Test_Affiliate::member" /> -->
+
+    </menu>
+</config>
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <!--<resource id="Magento_Backend::content">-->
+                    <resource id="Test_Affiliate::job_head" title="Members" sortOrder="100" >
+                        <resource id="Test_Affiliate::member" title="Members" sortOrder="10">
+                            <resource id="Test_Affiliate::member_save" title="Save Member" sortOrder="10" />
+                            <resource id="Test_Affiliate::member_delete" title="Delete Department" sortOrder="20" />
+                        </resource>
+                        
+                    </resource>
+                <!--</resource>-->
+            </resource>
+        </resources>
+    </acl>
+</config>
